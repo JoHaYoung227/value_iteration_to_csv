@@ -10,8 +10,9 @@
 `value_iteration.py` 파일에서는 Dynamic Programming의 value iteration 알고리즘을 실행합니다.
 
 ## environment + value iteration (value_iteration_with_env.py)
-`value_iteration.py_with_env.py` 파일에서는 강화 학습의 환경 변수 설정 코드와 value iteration 코드가 함께 있습니다.
-optimal policy를 출력하고 dataframe으로 저장합니다. 
+`value_iteration.py_with_env.py` 파일에서는 강화 학습의 환경 변수 설정 코드와 value iteration 코드가 함께 있습니다. <br>
+optimal policy를 출력하고 dataframe으로 저장합니다. <br>
+max_delta의 변화를 그래프를 출력합니다.
 
 ## 데이터 파일 경로 설정
 변수 설정 시 주의사항:
