@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # train.csv 파일 로드
-df = pd.read_csv("C:/Users/johy3/OneDrive/바탕 화면/value_iteration_to_csv-main/value_iteration_to_csv-main/example.csv")
+df = pd.read_csv("example.csv")
 
 # 상태와 행동 정의
 states = df[['기상상태', '사고유형', '노면상태', '가해운전자 차종', '가해운전자 상해정도', '피해운전자 차종', '시간', '도로형태1', '도로형태2']].drop_duplicates().apply(tuple, axis=1).tolist()
