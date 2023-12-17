@@ -1,5 +1,19 @@
 # value_iteration_to_csv
-1. environment.py 파일에서 강화 학습 환경 변수를 설정합니다.
-2. 각각의 코드 파일에서 data_path를 csv file의 경로에 맞추어 변경합니다.
-3. value_iteration.py 코드를 실행하여 optimal policy 결과를 확인합니다.
+
+# 강화 학습 환경 설정
+
+## 환경 변수 설정 (environment.py)
+
+`environment.py` 파일에서는 강화 학습 환경의 변수를 설정합니다. 해당 파일은 주어진 CSV 파일을 읽어와서 강화 학습에 필요한 상태, 행동, 보상을 정의합니다.
+
+변수 설정 시 주의사항:
+- `data_path`: CSV 파일의 경로를 지정합니다. 각 코드 파일에서 이 변수를 적절한 파일 경로로 변경해야 합니다.
+
+## 데이터 파일 경로 설정
+
+각 코드 파일에서 `data_path` 변수를 CSV 파일의 경로로 수정합니다. 예를 들어:
+
+```python
+data_path = "your/path/to/data.csv"
+
 
