@@ -27,8 +27,9 @@ class ValueIteration:
                 break
 
 if __name__ == "__main__":
-    # 예시: 환경과 가치 반복 클래스를 사용하여 알고리즘 실행하는 코드
+    # 환경과 가치 반복 클래스를 사용하여 알고리즘 실행하는 코드
     data_path = "example.csv"
+    from environment import Environment
     env = Environment(data_path)
     value_iteration = ValueIteration(env)
     value_iteration.run()
