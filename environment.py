@@ -25,7 +25,7 @@ class Environment:
         return state_action_rewards.mean() if not state_action_rewards.empty else 0
 
 if __name__ == "__main__":
-    # 예시: 환경 클래스를 사용하여 데이터를 읽고 상태 및 행동을 확인하는 코드
+    # 환경 클래스를 사용하여 데이터를 읽고 상태 및 행동을 확인하는 코드
     data_path = "example.csv"
     env = Environment(data_path)
     states = env.get_states()
