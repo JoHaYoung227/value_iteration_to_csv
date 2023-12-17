@@ -1,5 +1,4 @@
 # environment.py
-from value_iteration import ValueIteration
 import pandas as pd
 
 class Environment:
