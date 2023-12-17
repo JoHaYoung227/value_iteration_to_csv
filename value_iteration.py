@@ -1,5 +1,4 @@
 # value_iteration.py
-from environment import Environment
 
 class ValueIteration:
     def __init__(self, environment, gamma=0.9, threshold=0.01):
