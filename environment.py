@@ -29,7 +29,7 @@ class Environment:
 
 if __name__ == "__main__":
     # 환경 클래스를 사용하여 데이터를 읽고 상태 및 행동을 확인하는 코드
-    data_path = "example.csv" # 여기서 데이터 경로 바꾸기 
+    data_path = "example.csv" # 여기서 데이터 경로를 바꾸세요.
     env = Environment(data_path) 
     states = env.get_states()
     actions = env.get_actions()
