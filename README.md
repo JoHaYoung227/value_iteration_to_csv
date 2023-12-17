@@ -2,8 +2,8 @@
 
 ## 환경 변수 설정 (environment.py)
 
-`environment.py` 파일에서는 강화 학습 환경의 변수를 설정합니다. 
-해당 파일은 주어진 CSV 파일을 읽어와서 강화 학습에 필요한 상태, 행동, 보상을 정의합니다.
+`environment.py` 파일에서는 강화 학습 환경의 변수를 설정합니다. <br>
+해당 파이썬 파일은 주어진 CSV 파일을 읽어와서 강화 학습에 필요한 상태, 행동, 보상을 정의합니다.
 
 
 ## value iteration 알고리즘 실행 (value_iteration.py)
